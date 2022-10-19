@@ -1,0 +1,43 @@
+.newsContainer{
+    background-size: 200px 200px;
+    width: 70vw;
+    margin: 2rem auto ;
+    font-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: white;
+    padding: 2rem;
+}
+
+.newsContainer:hover{
+    border: 4px solid rgb(7, 7, 145);
+}
+.News{
+    color: rgb(50, 50, 78);
+    background-image: url(../fifabackground.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow-y: scroll;
+    padding-top: 2rem;
+}
+
+.newsContainer a{
+    text-decoration: none;
+    color: rgb(50, 50, 78);
+    display: flex;
+    gap: 2rem;
+}
+
+.newsImage{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+   
+}
+
+@media only screen and (max-width: 659px) {
+    .newsContainer a{
+        flex-direction: column;
+    }
+   
+  }

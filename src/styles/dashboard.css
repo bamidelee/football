@@ -1,0 +1,94 @@
+.dashboard .fixtureGrid{
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(50, 50, 78);
+    grid-column: 1/ span 2;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.dashboard{
+    cursor: pointer;
+    color: rgb(50, 50, 78);
+    background-image: url(../fifabackground.jpg);
+    height: 100vh;
+    background-size: cover;
+    padding-top: 2rem;
+    overflow: hidden;
+   
+}
+
+.dashboardContainer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 30% 30%;
+    width: 90vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+    overflow: hidden;
+ 
+}
+
+.dashboardContainer a{
+    color: rgb(50, 50, 78);
+    text-decoration: none;
+    background-color: white;
+    transition: all .3s;
+}
+
+.dashboardContainer a:hover{
+    color: white;
+    background-color: rgb(7, 7, 126);
+}
+.dashboard .videoGrid{
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.dashboard .newsGrid{
+    grid-row: span 2;
+    font-size: 1.5rem;
+}
+
+.dashboard .standingsGrid{
+    grid-row: span 2;
+    font-size: 1.5rem;
+}
+.dashboard img{
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashboard .resultsGrid{
+    grid-column: span 2;
+    font-size: 1.5rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.resultsGrid img{
+    height: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .dashboardContainer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    .dashboard{
+        overflow: scroll;
+    }
+    .dashboard .fixtureGrid{
+        height: 20vh;
+    }
+     
+  }

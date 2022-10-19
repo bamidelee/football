@@ -1,0 +1,80 @@
+.fixtures .matches{
+    display: grid;
+    grid-template-columns: 20% 10% 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fixtures{
+    color: rgb(50, 50, 78);
+    background-image: url(../fifabackground.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow-y: scroll;
+    padding-top: 2rem;
+}
+
+.fixtures .matchesContainer{
+    margin: 2rem;
+    border: 1px solid grey;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+html{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.fixtures .fixtureContainer{
+    width: 90vw;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px;
+    transition: all .3s;
+}
+
+ button:hover{
+    background-color: rgba(64, 64, 68, 0.432);
+}
+
+ .active{
+    background-color: blue;
+    border-left: 4px solid red;
+}
+
+ .leagueSelect{
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 90vw;
+    margin: 0 auto 1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.material-symbols-outlined{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: white;
+    cursor: pointer;
+}

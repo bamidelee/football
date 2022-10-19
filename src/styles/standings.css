@@ -1,0 +1,54 @@
+.standings{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.standingsContainer{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 1rem;
+}
+
+.standings:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.336);
+}
+
+.Standings{
+    color: rgb(50, 50, 78);
+    background-image: url(../fifabackground.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow-y: scroll;
+    padding-top: 2rem;
+}
+
+.standingsLeft{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.standingsRight{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    justify-items: center;
+    align-items: center;
+}
+
+.standingsHeader{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 1rem;
+}
+
+.standingsHeaderLeft{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    justify-items: center;
+    align-items: center;
+}
